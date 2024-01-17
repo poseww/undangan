@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Kaushan+Script&family=Libre+Baskerville&family=Montserrat:ital,wght@0,400;0,700;1,600&family=Open+Sans:wght@300&family=Permanent+Marker&family=Roboto:wght@300&family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 200vh;
+    height: 100vh;
+    /* align-items: center;
+    justify-content: center; */
+    overflow-x: hidden;
+}
+
+body.dark-mode {
+    background-color: black;
+    /* Add your dark mode background image here */
+    /* background-image: url('dark-mode-background.jpg'); */
+    color: white;
+}
+
+img {
+    margin-right: -120.5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+body.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.section-one button {
+    position: absolute;
+    background: transparent;
+    margin-right: -90vh;
+    margin-top: -80vh;
+}
+
+.section-one {
+    width: 100vh;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section-one button {
+    position: absolute;
+}
+
+.section-one .container h1 {
+    font-family: "Cinzel", serif;
+    font-size: 20px;
+    margin-right: -90vh;
+    position: absolute;
+    color: black;
+    margin-top: -65vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.section-one .container h2{
+    font-family: "Dancing Script", cursive;
+    font-size: 100px;
+    color: black;
+    position: absolute;
+    margin-right: -90vh;
+    margin-top: -40vh;
+    max-width: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    justify-content: center;
+    
+}
+
+.section-one .container p {
+    font-family: "Libre Baskerville", serif;
+    font-size: 13px;
+    color: black;
+    position: absolute;
+    margin-right: -90vh;
+    margin-top: -15vh;
+}
+
+.section-one .container h3 {
+    font-family: "Tangerine", cursive;
+    font-size: 90px;
+    position: absolute;
+    margin-right: -90vh;
+    color: black;
+    margin-top: 3vh;
+}
+
+.section-one .container h5 {
+    position: absolute;
+    color: black;
+    margin-right: -90vh;
+    margin-top: 25vh;
+    font-size: 20px;
+}
+
+.section-one .container h5 span {
+    font-size: 30px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1 {
+    position: absolute;
+    background-color: goldenrod;
+    padding: 15px 40px;
+    border: none;
+    color: var(--white);
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: all 0.3s ease-out;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: -90vh;
+    margin-top: 45vh;
+}
+
+.section-two {
+    width: 100vh;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section-two .container h1 {
+    font-family: "Cinzel", serif;
+    font-size: 50px;
+    margin-right: -90vh;
+    position: absolute;
+    color: black;
+    margin-top: -70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-two .container h2{
+    font-family: "DM Serif Display", serif;
+    font-size: 70px;
+    color: black;
+    position: absolute;
+    margin-right: -90vh;
+    margin-top: -40vh;
+}
+
+.section-two .container h3 {
+    font-family: "Tangerine", cursive;
+    position: absolute;
+    font-size: 90px;
+    color: black;
+    margin-right: -90vh;
+    margin-top: -10vh;
+}
+
+.section-two .container h4 {
+    font-family: "DM Serif Display", serif;
+    position: absolute;
+    font-size: 30px;
+    margin-right: -90vh;
+    margin-top: 7vh;
+    color: black;
+}
+
+.section-two .container h5 {
+    position: absolute;
+    color: black;
+    margin-right: -90vh;
+    margin-top: 20vh;
+    font-size: 20px;
+}
+
+.section-two .container h5 span {
+    font-size: 30px;
+}
+
+.section-two .container p {
+    position: absolute;
+    color: black;
+    margin-right: -90vh;
+    margin-top: 35vh;
+    font-size: 20px;
+}
+
+.section-two .container a {
+    position: absolute;
+    color: black;
+    margin-right: -90vh;
+    margin-top: 45vh;
+    font-size: 20px;
+}
+
+.section-three {
+    width: 100vh;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+
+
+.section-three h1 {
+    font-family: "Cinzel", serif;
+    font-size: 50px;
+    margin-right: -90vh;
+    position: absolute;
+    color: black;
+    margin-top: -50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-three h2 {
+    font-family: "Cinzel", serif;
+    font-size: 40px;
+    margin-right: -90vh;
+    position: absolute;
+    color: black;
+    margin-top: -20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-three h3 {
+    position: absolute;
+    color: black;
+    margin-right: -90vh;
+    font-size: 20px;
+}
+
+.section-three p {
+    position: absolute;
+    color: black;
+    margin-right: -90vh;
+    margin-top: 20vh;
+    font-size: 40px;
+}
+
+.section-three h4 {
+    position: absolute;
+    color: black;
+    margin-right: -90vh;
+    margin-top: 40vh;
+    font-size: 20px;
+}
+
+@media screen and (max-width : 576px){
+    img {
+        margin-right: -95vh;
+        width: 70%;
+        height: 100%;
+    }
+
+    .section-one button {
+        margin-right: -117vh;
+    }
+
+    .section-one .container h1 {
+        font-size: 13.5px;
+        margin-right: -117vh;
+    }
+
+    .section-one .container h2 {
+        font-size: 70px;
+        margin-right: -117vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .section-one .container p {
+        font-size: 10px;
+        margin-right: -117vh;
+        margin-top: -10vh;
+    }
+
+    .section-one .container h3 {
+        font-size: 60px;
+        margin-right: -117vh;
+    }
+
+    .section-one .container h5 {
+        font-size: 15px;
+        margin-right: -117vh;
+    }
+
+    .section-one .container h5 span {
+        font-size: 20px;
+    }
+
+    .btn1 {
+        margin-right: -117vh;
+    }
+
+    .section-two .container h1 {
+        font-size: 30px;
+        margin-right: -117vh;
+    }
+
+    .section-two .container h2 {
+        font-size: 40px;
+        margin-right: -117vh;
+    }
+
+    .section-two .container h3 {
+        font-size: 50px;
+        margin-right: -117vh;
+    }
+
+    .section-two .container h4 {
+        font-size: 20px;
+        margin-right: -117vh;
+    }
+
+    .section-two .container h5 {
+        margin-right: -117vh;
+        font-size: 15px;
+    }
+    
+    .section-two .container h5 span {
+        font-size: 20px;
+    }
+
+    .section-two .container p {
+        font-size: 15px;
+        margin-right: -117vh;
+    }
+
+    .section-two .container a {
+        font-size: 15px;
+        margin-right: -117vh;
+    }
+
+    .section-three h1 {
+        font-size: 30px;
+        margin-right: -117vh;
+    }
+
+    .section-three h2 {
+        font-size: 20px;
+        margin-right: -117vh;
+    }
+
+    .section-three h3 {
+        font-size: 15px;
+        margin-right: -117vh;
+    }
+
+    .section-three p {
+        font-size: 25px;
+        margin-right: -117vh;
+    }
+
+    .section-three h4 {
+        font-size: 15px;
+        margin-right: -117vh;
+    }
+}
+
+
