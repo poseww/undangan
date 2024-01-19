@@ -15,18 +15,7 @@ body {
     align-items: center;
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
 
-.fade-in {
-    animation: fadeIn 1s ease-in-out;
-}
 
 body.dark-mode {
     background-color: black;
@@ -123,6 +112,19 @@ span.dark-mode-box.dark-mode{
     background-position: center;
     background-repeat: no-repeat;
     animation: fadeIn;
+}
+
+.animation-text {
+    animation: fadeIn 10s infinite;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .section-two,.section-three {
