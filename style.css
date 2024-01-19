@@ -1,0 +1,180 @@
+/* File: style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 300vh;
+    overflow-x: hidden;
+    transition: background-color 0.3s, color 0.3s;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+body.dark-mode {
+    background-color: black;
+    color: white; 
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
+#checkbox-dark-mode {
+    position: relative;
+    width: 45px;
+    z-index: 999;
+    opacity: 0;
+}
+
+span.dark-mode-box{
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 20px;
+    border-radius: 20px;
+    padding: 1px;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: -70vh;
+}
+
+div.circle{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: black;
+    left: 0px;
+}
+
+div.circle.dark-mode{
+    background-color: white;
+    left: calc(100% - 20px);
+}
+
+span.dark-mode-box.dark-mode{
+    border: 1px solid white;
+    background-color: rgb(90, 90, 90);
+    color: whitesmoke;
+}
+
+.dark-mode{
+    background-color: rgb(90, 90, 90);
+    color: whitesmoke;
+}
+
+
+
+@keyframes darkmode-animation{
+    0% {
+        left: 0;
+    }
+    100% {
+        right: 0;
+    }
+}
+
+@keyframes lightmode-animation{
+    0% {
+        right: 0;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-one{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(fjk.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: fadeIn;
+}
+
+.section-two,.section-three {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(la.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-one img,.section-two img,.section-three img {
+    width: 100%;
+    height: 100%;
+}
+
+.isi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin-bottom: 10px;
+}
+
+.btn1 {
+    background-color: goldenrod;
+    padding: 15px 40px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: all 0.3s ease-out;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.btn1:hover {
+    background-color: #ffd700; /* Warna kuning yang lebih terang untuk efek hover */
+}
+
+/* Add styles for other elements in section-one, section-two, section-three, and other sections as needed */
+
+/* ... */
+
+/* Additional sections and styles */
